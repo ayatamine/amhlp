@@ -1,6 +1,6 @@
 <div class="myfooter" >
   <div class="container">
-                <div class="copyright">Copyright © 2018, All Rights Reserved,</div>
+                <div class="copyright">Copyright © 2018, All Rights Reserved,<a href="{{route('MainControllerAr.helpCenter')}}" style="margin-left: 10px;">العربية</a></div>
            
 <!--           <div class="icons col-md-8" >
          
