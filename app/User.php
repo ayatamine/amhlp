@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'username', 'email', 'password',
+        'username', 'email', 'password','avatar','firstname','lastname'
     ];
 
     /**
@@ -39,5 +39,28 @@ class User extends Authenticatable
             return true;
         }
     }
+    public function user_groups($user_id){
+        $roles=explode(',',User::find($user_id)->groups_id);
+        array_pop($roles);
+        $roles_array=[];
+        foreach($roles as $role){
+            array_push($roles_array,groups::find($role));
+        }
+        return $roles_array;
+    }
+    public function user_groups_id($user_id){
+        $roles=explode(',',User::find($user_id)->groups_id);
+        array_pop($roles);
+        $roles_array=[];
+        foreach($roles as $role){
+            array_push($roles_array,groups::find($role)->id);
+        }
+        return $roles_array;
+    }
+   
+    public function permissions($id){
+        return permissions::where('user_id',$id)->get();
+    }
     
+
 }

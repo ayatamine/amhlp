@@ -22,6 +22,10 @@ class CreateTicketsTable extends Migration
             $table->longtext('details');
             $table->integer('category_id')->unsigned();
             $table->string('sub_category_name');
+            $table->enum('status',array('Open','Closed','Pending','Spam'))->default('Open');
+            $table->string('added_categories')->nullable();
+            $table->string('added_tags')->nullable();
+            $table->enum('publish_state',array('published','draft'))->default('published');
             $table->timestamps();
         });
     }

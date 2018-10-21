@@ -66,7 +66,7 @@ class ticketSeeder extends Seeder
           The Earth is a very small stage in a vast cosmic arena.</div>',
            'category_id'=>'1',
            'sub_category_name'=>'Introduction',
-           
+           'added_tags'=>'12,11,13,',
            
 
         ]);
@@ -123,9 +123,10 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'2',
              'sub_category_name'=>'Introduction',
-             
+             'added_categories'=>'2,3,5,',
+             'added_tags'=>'12,11,13,',
              
   
           ]);
@@ -182,9 +183,10 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'3',
              'sub_category_name'=>'Introduction',
-             
+             'added_categories'=>'1,3,4,',
+             'added_tags'=>'12,11,13,',
              
   
           ]);
@@ -241,9 +243,10 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'3',
              'sub_category_name'=>'Introduction',
-             
+             'added_categories'=>'3,2,5,',
+             'added_tags'=>'22,55,13,',
              
   
           ]);
@@ -300,7 +303,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'3',
              'sub_category_name'=>'Introduction',
              
              
@@ -418,7 +421,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'4',
              'sub_category_name'=>'Installation',
              
              
@@ -477,7 +480,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'5',
              'sub_category_name'=>'Installation',
              
              
@@ -536,7 +539,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'5',
              'sub_category_name'=>'Installation',
              
              
@@ -595,7 +598,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'6',
              'sub_category_name'=>'Installation',
              
              
@@ -654,7 +657,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'6',
              'sub_category_name'=>'Billing',
              
              
@@ -713,7 +716,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'6',
              'sub_category_name'=>'Billing',
              
              
@@ -890,7 +893,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'3',
              'sub_category_name'=>'Billing',
              
              
@@ -949,7 +952,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'4',
              'sub_category_name'=>'Shipping',
              
              
@@ -1067,7 +1070,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'2',
              'sub_category_name'=>'Shipping',
              
              
@@ -1303,7 +1306,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'5',
              'sub_category_name'=>'Import & Export ',
              
              
@@ -1362,7 +1365,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'6',
              'sub_category_name'=>'Import & Export',
              
              
@@ -1421,7 +1424,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'6',
              'sub_category_name'=>'Import & Export',
              
              
@@ -1480,7 +1483,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'5',
              'sub_category_name'=>'Import & Export ',
              
              
@@ -1598,7 +1601,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'2',
              'sub_category_name'=>'Settings & Configuration',
              
              
@@ -1657,7 +1660,7 @@ class ticketSeeder extends Seeder
             <div class="title">Note:</div>
             To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we’ve ever known.</div>
             The Earth is a very small stage in a vast cosmic arena.</div>',
-             'category_id'=>'1',
+             'category_id'=>'5',
              'sub_category_name'=>'Settings & Configuration  ',
              
              
@@ -1718,7 +1721,8 @@ class ticketSeeder extends Seeder
             The Earth is a very small stage in a vast cosmic arena.</div>',
              'category_id'=>'1',
              'sub_category_name'=>'Settings & Configuration ',
-             
+             'added_categories'=>'1,6,4',
+             'added_tags'=>'65,22,44,',
              
   
           ]);
@@ -1777,7 +1781,8 @@ class ticketSeeder extends Seeder
             The Earth is a very small stage in a vast cosmic arena.</div>',
              'category_id'=>'1',
              'sub_category_name'=>'Settings & Configuration',
-             
+             'added_categories'=>'1,2,3,5',
+             'added_tags'=>'32,21,43,',
              
   
           ]);
@@ -1834,7 +1839,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة :</div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'7',
              'sub_category_name'=>'Introduction',
              
              
@@ -1893,7 +1898,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'8',
              'sub_category_name'=>'Introduction',
              
              
@@ -1952,7 +1957,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'7',
              'sub_category_name'=>'Installation',
              
              
@@ -2011,7 +2016,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'9',
              'sub_category_name'=>'Installation',
              
              
@@ -2070,7 +2075,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'8',
              'sub_category_name'=>'Settings & Configuration',
              
              
@@ -2129,7 +2134,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'9',
              'sub_category_name'=>'Settings & Configuration',
              
              
@@ -2188,7 +2193,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'9',
              'sub_category_name'=>'Import & Export',
              
              
@@ -2247,7 +2252,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'11',
              'sub_category_name'=>'Import & Export',
              
              
@@ -2306,7 +2311,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'11',
              'sub_category_name'=>'Shipping',
              
              
@@ -2365,7 +2370,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'9',
              'sub_category_name'=>'Shipping',
              
              
@@ -2424,7 +2429,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'10',
              'sub_category_name'=>'Billing',
              
              
@@ -2483,7 +2488,7 @@ class ticketSeeder extends Seeder
             <div class="title">ملحوظة : </div>
             بالنسبة لي ، فهي تؤكد على مسؤوليتنا في التعامل مع بعضنا البعض بشكل أفضل ، والمحافظة على النقطة الزرقاء الشاحبة والاعتناء بها ، وهو المنزل الوحيد الذي عرفناه.</div>
             الأرض هي مرحلة صغيرة جدا في الساحة الكونية الضخمة.</div>',
-             'category_id'=>'6',
+             'category_id'=>'12',
              'sub_category_name'=>'Billing',
              
              

@@ -25,7 +25,9 @@ $('.settings i').on('click',function(){
   
 });
 // search icon 
+/*
 $('.search-article').on('focus',function(){
+
 
   if($(this).attr('id')=='search-title'){
        $('#search-icon').attr('src','img/search2.png');
@@ -41,22 +43,19 @@ $('.search-article').on('focusout',function(){
     $('#search-icon').attr('src','../../img/search2.png');   
     }
   });
+  */
 
 
 // end 
 $('.xs-article-menu-icon').click(function(){
 $(this).toggleClass('iconposition');
 if($(this).hasClass('iconposition')){
-    $(this).animate({
-        left:'68%',
-    },500);
+   
     $('.left-side-scroll-xs').animate({
         left:'0%',
     },500);
 }else{
-    $(this).animate({
-        left:'2%',
-    },500);
+   
     $('.left-side-scroll-xs').animate({
         left:'-65%',
     },500);
@@ -86,15 +85,7 @@ $('.note-about-article2').on('click',function(){
         }
         
         
-        
-        $(this).animate({
-            padding:  '1%',
-            paddingBottom: '4%',
-            borderRadius:  '5px',
-            
-           
-        },600);
-        $(this).css('background','white');
+        $('#delete-icon').css('display','inline-block');
         $('.search-result').css('display','block');
         $.ajax({
             url:'/helpCenter/search-article/'+query+'',
@@ -104,9 +95,14 @@ $('.note-about-article2').on('click',function(){
             success:function(data)
             {
               console.log(data);
-              var slug=data.slug;
+              var slug;
+              var i=0;
+              for(i=0;i<2;i++){
+              slug=data.slug;
+              console.log(slug);
+              
               $('.search-result').find('.title').html(data.title);
-              $('.search-result').find('.body').html(data.body);
+              }
               if($('.search-result').find('#see-all-result').attr('class','salr')){
                 $('.search-result').find('#see-all-result').html('<a href="/helpCenter/search/'+data.search_word+'">رؤية كل النتائج</a>');
 
@@ -115,8 +111,6 @@ $('.note-about-article2').on('click',function(){
 
               }
              $('.search-result').find('.article-in-category').attr('href','/help-center/articles/'+slug+'');
-              $('.search-result').find('#at1').text(data.sub_category); 
-              $('.search-result').find('#at2').text(data.category); 
             }
            });
 
@@ -128,6 +122,7 @@ $('.search-result').css('display','none');
 $('#search-articles').css('padding','0');
 
 $('#search-articles').css('background', 'none');
+$('#search-articles').css('boxShadow', 'none');
 
 });
 
@@ -177,7 +172,36 @@ $('#search-articles').css('background', 'none');
 
  });*/
 });
+$('.navbar-toggler').click(function(){
+  $(this).toggleClass('full-width');
 
+  var navfull=$('.nav-full');
+  if($(this).hasClass('full-width')){
+    $('.nav-scroller').css('marginBottom','0');
+    $('.nav-full .nav.nav-underline').css('marginTop','0');
+    navfull.css('position','absolute');
+   
+    navfull.animate({
+        zIndex: '9999',
+        width:'100%',
+    },500);   
+  }else{
+        $('.nav-scroller').css('marginBottom','4%');
+        $('.nav-full .nav.nav-underline').css('marginTop','-4%');
+        navfull.css('position','fixed');
+        navfull.css('width','0');
+       
+           
+      }
+
+  
+});
+
+$('#delete-icon').on('click',function(){
+ $('#search-title').val('');
+ $('#inner-search-title').val('');
+ $(this).css('display','none');
+});
 
 
  

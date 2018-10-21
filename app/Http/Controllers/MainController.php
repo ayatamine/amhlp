@@ -7,8 +7,10 @@ use Session;
 use App\ticket;
 use App\category;
 use App\feedback;
+use App\siteSettings;
 use Auth;
 use DB;
+
 class MainController extends Controller
 {
     /**
@@ -19,7 +21,7 @@ class MainController extends Controller
     public function index()
     {
         return view ('MainPages.helpCenter')
-        ->with('categories',category::all())
+        ->with('categories',category::paginate(6))
         ->with('introduction_articles',ticket::where('sub_category_name','Introduction')->paginate(5))
         ->with('installation_articles',ticket::where('sub_category_name','Installation')->paginate(5))
         ->with('shipping_articles',ticket::where('sub_category_name','Shipping')->paginate(5))
@@ -216,4 +218,6 @@ class MainController extends Controller
     {
         //
     }
+
+   
 }

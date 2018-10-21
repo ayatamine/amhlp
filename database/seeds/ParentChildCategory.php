@@ -1,0 +1,210 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class ParentChildCategory extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+       \App\ParentChildCategories::create([
+          'order'=>1,
+           'parent_id'=>1,
+           'child_id'=>1,
+       ]);
+       \App\ParentChildCategories::create([
+         'order'=>2,
+         'parent_id'=>1,
+         'child_id'=>2,
+     ]);
+     \App\ParentChildCategories::create([
+        'order'=>3,
+         'parent_id'=>1,
+         'child_id'=>3,
+     ]);
+     \App\ParentChildCategories::create([
+        'order'=>4,
+         'parent_id'=>1,
+         'child_id'=>4,
+     ]);
+     \App\ParentChildCategories::create([
+        'order'=>5,
+         'parent_id'=>1,
+         'child_id'=>5,
+     ]);
+     \App\ParentChildCategories::create([
+        'order'=>6,
+         'parent_id'=>1,
+         'child_id'=>6,
+     ]);
+     //
+     //
+     //
+     \App\ParentChildCategories::create([
+        'order'=>1,
+         'parent_id'=>2,
+         'child_id'=>1,
+     ]);
+     \App\ParentChildCategories::create([
+       'order'=>2,
+       'parent_id'=>2,
+       'child_id'=>2,
+   ]);
+   \App\ParentChildCategories::create([
+      'order'=>3,
+       'parent_id'=>2,
+       'child_id'=>3,
+   ]);
+   \App\ParentChildCategories::create([
+      'order'=>4,
+       'parent_id'=>2,
+       'child_id'=>4,
+   ]);
+   \App\ParentChildCategories::create([
+      'order'=>5,
+       'parent_id'=>2,
+       'child_id'=>5
+   ]);
+   \App\ParentChildCategories::create([
+      'order'=>6,
+       'parent_id'=>2,
+       'child_id'=>6,
+   ]);
+
+   //
+   //
+   //
+   \App\ParentChildCategories::create([
+    'order'=>1,
+     'parent_id'=>3,
+     'child_id'=>1,
+ ]);
+ \App\ParentChildCategories::create([
+   'order'=>2,
+   'parent_id'=>3,
+   'child_id'=>2,
+]);
+\App\ParentChildCategories::create([
+  'order'=>3,
+   'parent_id'=>3,
+   'child_id'=>3,
+]);
+\App\ParentChildCategories::create([
+  'order'=>4,
+   'parent_id'=>3,
+   'child_id'=>4,
+]);
+\App\ParentChildCategories::create([
+  'order'=>5,
+   'parent_id'=>3,
+   'child_id'=>5,
+]);
+\App\ParentChildCategories::create([
+  'order'=>6,
+   'parent_id'=>3,
+   'child_id'=>6,
+]);
+//
+//
+//
+\App\ParentChildCategories::create([
+    'order'=>1,
+     'parent_id'=>4,
+     'child_id'=>1,
+ ]);
+ \App\ParentChildCategories::create([
+   'order'=>2,
+   'parent_id'=>4,
+   'child_id'=>2,
+]);
+\App\ParentChildCategories::create([
+  'order'=>3,
+   'parent_id'=>4,
+   'child_id'=>3,
+]);
+\App\ParentChildCategories::create([
+  'order'=>4,
+   'parent_id'=>4,
+   'child_id'=>4,
+]);
+\App\ParentChildCategories::create([
+  'order'=>5,
+   'parent_id'=>4,
+   'child_id'=>5,
+]);
+\App\ParentChildCategories::create([
+  'order'=>6,
+   'parent_id'=>4,
+   'child_id'=>6,
+]);
+///
+///
+\App\ParentChildCategories::create([
+    'order'=>1,
+     'parent_id'=>5,
+     'child_id'=>1,
+ ]);
+ \App\ParentChildCategories::create([
+   'order'=>2,
+   'parent_id'=>5,
+   'child_id'=>2,
+]);
+\App\ParentChildCategories::create([
+  'order'=>3,
+   'parent_id'=>5,
+   'child_id'=>3,
+]);
+\App\ParentChildCategories::create([
+  'order'=>4,
+   'parent_id'=>5,
+   'child_id'=>4,
+]);
+\App\ParentChildCategories::create([
+  'order'=>5,
+   'parent_id'=>5,
+   'child_id'=>5,
+]);
+\App\ParentChildCategories::create([
+  'order'=>6,
+   'parent_id'=>5,
+   'child_id'=>6,
+]);
+//
+//
+//
+\App\ParentChildCategories::create([
+    'order'=>1,
+     'parent_id'=>6,
+     'child_id'=>1,
+ ]);
+ \App\ParentChildCategories::create([
+   'order'=>2,
+   'parent_id'=>6,
+   'child_id'=>2,
+]);
+\App\ParentChildCategories::create([
+  'order'=>3,
+   'parent_id'=>6,
+   'child_id'=>3,
+]);
+\App\ParentChildCategories::create([
+  'order'=>4,
+   'parent_id'=>6,
+   'child_id'=>4,
+]);
+\App\ParentChildCategories::create([
+  'order'=>5,
+   'parent_id'=>6,
+   'child_id'=>5,
+]);
+\App\ParentChildCategories::create([
+  'order'=>6,
+   'parent_id'=>6,
+   'child_id'=>6,
+]);
+    }
+}

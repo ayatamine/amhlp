@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap-rtl.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/MainStyleAr.css')}}">
-
+        <link rel="shortcut icon" href="{{asset('img')}}/{{$siteSettings->favicon_icon}}">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
@@ -49,6 +49,7 @@
                 });
             })
             </script>
+            <script src="{{asset('js/chart.js')}}" type="text/javascript"></script>
             <script src="{{asset('js/main.js')}}"></script>
             <script src="{{asset('js/bootstrap.min.js')}}"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>

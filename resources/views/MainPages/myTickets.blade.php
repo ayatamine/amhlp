@@ -6,54 +6,90 @@
 <section class="app-content">
 
     <div class="intro">
-        <div class="navbar intro-navbar-single-article">
-           <div class="container">
-                <nav class="nav-content">
-                        <a href="{{route('MainController.helpCenter')}}" class="logo-link col-xs-6 float-left">
-                            <img src="{{asset('img/hc-logo.png')}}" alt="logo" class="logo">
-                        </a>
-                </nav>
-                @if(Auth::check())
-                <div class="mytickets">
-                        <a  href="{{route('MainController.myTickets')}}">My Tickets</a> <span class="settings "><i class="fa fa-cog"></i></span>
-                        <span class="logged-in-widget"><img src="{{asset('img/loggedin.png')}}" style="height:35px;width:35px;margin-right: 10px;" alt="logged-in-avatar">@if(Auth::check()){{Auth::user()->email}} @endif <i class="fa fa-caret-down" aria-hidden="true"></i> </span>
+            <div class="navbar intro-navbar">
+                    @if(Auth::check())
+                    <nav class="nav-content inner-nav-content">
+                         Poostel 
+                    </nav>
+                    @else
+                    <nav class="nav-content ">
+                            Poostel 
+                    </nav>
+                    @endif
+                    @if(Auth::check())
+                    <div class="mytickets">
+                            <span class="settings "><i class="fa fa-cog"></i></span>
+                        <span class="logged-in-widget"><img src="{{asset('img/loggedin.png')}}" style="height:35px;width:35px;margin-right: 10px;" alt="logged-in-avatar">@if(Auth::check()){{Auth::user()->email}} @endif<i class="fa fa-caret-down" aria-hidden="true"></i> </span>
                         <div class="dropdown-auth hide-dropdown">
                             <ul class="list-unstyled">
                                 <li>
-                                <img src="{{asset('img/inbox.png')}}" alt="inbox" style="height:24px;width:20px;opacity: 0.8;">
                                 <a href="{{route('MainController.myTickets')}}">My Tickets</a>
                                 </li>
+
                                 <li>
-                                    <i class="fa fa-cog"></i><a href=""> Acount Settings</a>
+                                        <a href="/#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                        <a href="/#">Terms of Service</a>
+                                </li>
+                                <li>
+                                        <a href="/#">Careers</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-sign-out"></i><a href="/logout"> Log Out</a>
                                 </li>
+                                
                             </ul>
                         </div>
                         <div class=" xs-dropdown-auth hide-dropdown ">
                                 <ul class="list-unstyled">
                                     <li>
-                                            <img src="{{asset('img/inbox.png')}}" alt="inbox" style="height:24px;width:20px;opacity: 0.8;">
-                                            <a href="{{route('MainController.myTickets')}}">My Tickets</a>                            </li>
-                                    <li>
-                                        <i class="fa fa-cog"></i><a href=""> Acount Settings</a>
+                                            <a href="{{route('MainController.myTickets')}}">My Tickets</a>                     
                                     </li>
+                                    <li>
+                                            <a href="/#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                            <a href="/#">Terms of Service</a>
+                                    </li>
+                                    <li>
+                                            <a href="/#">Careers</a>
+                                    </li>       
                                     <li>
                                         <i class="fa fa-sign-out"></i><a href="/logout"> Log Out</a>
                                     </li>
                                 </ul>
                         </div>
-                </div>
-                @else
-                    <div class="mytickets login-t">
-                        <a href="/login">Login</a>
                     </div>
-                @endif
-           </div>
-           
-        </div>
-       
+                    @else
+                        <div class="mytickets login-t">
+                            <a href="/#">Privacy Policy</a>
+                            <a href="/#">Terms of Service</a>
+                            <a href="/#">Careers</a>
+                            <a href="/login" id="login-link">Login</a>
+                        </div>
+                        <div class="mytickets xs-login-t">
+                                <a href="/login" id="login-link">Login</a>
+                        </div>
+                    @endif
+               
+            </div>
+            <div class="nav-scroller ">
+                    <nav class="nav nav-underline">
+                      <a class="nav-link active" href="#">Dashboard</a>
+                      <a class="nav-link" href="#">
+                        Friends
+                        <span class="badge badge-pill bg-light align-text-bottom">27</span>
+                      </a>
+                      <a class="nav-link" href="#">Explore</a>
+                      <a class="nav-link" href="#">Suggestions</a>
+                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="#">Link</a>
+                      <a class="nav-link" href="#">Link</a>
+                      
+                    </nav>
+            </div>
     </div>
     
 
@@ -69,17 +105,17 @@
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <input type="text" class="search-article" name="search-title" id="inner-search-title" placeholder="Enter your question or keyword here">
             <img src="{{asset('img/search.png')}}" alt="search-icon" id="search-icon">
+            <img src="{{asset('img/close.png')}}" alt="delete-icon" id="delete-icon" >
      </form>
      <div class="search-result">
         <a class="article-in-category" href="">
-            <img src="{{asset('img/document.png')}}" alt="document">
-            <div class="description" style="text-align:left;padding-left: 55px;">
-                <div class="title"></div>
-                <div class="body"></div>
-                <div class="article-tags"><span id="at1"></span> <span id="at2"></span></div>
-                <hr>
+                <div class="description" style="text-align:left; padding: 6px;">
+                        <img src="{{asset('img/documents.png')}}" alt="document">
+                        <div class="title"></div>
+                        <hr style="margin-top: 0.5rem;margin-bottom: 0.5rem;">
+                        
+                </div>
                 <div id="see-all-result"></div>
-            </div>
         </a>
         <hr style="width:98%;margin-left:0">
      </div>
